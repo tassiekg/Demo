@@ -1,0 +1,163 @@
+body {
+    display: block;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0;
+    background: gray;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #3e773e;
+}
+
+/*header*/
+nav {
+    background-color: #aeaca8;
+    color: #fff;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000;
+}
+
+/*main section*/
+.foods,
+.ingredients {
+    float: left;
+    width: 658px;
+    height: 653px;
+    border-right: 1px solid green;
+    border-bottom: 2px solid green;
+    background-color: white;
+}
+
+.foods article,
+.ingredients article {
+    overflow: auto;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+figure {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px 10px 10px 10px;
+    color: darkred;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0px 5px 0px;
+}
+
+/*sidebar*/
+aside {
+    width: 261px;
+    height: 653px;
+    float: left;
+    padding-left: 20px;
+    background-color: lightgrey;
+    border-bottom: 2px solid green;
+}
+
+aside h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+aside article ul {
+    padding: 0;
+}
+
+aside article li {
+    display: block;
+    color: red;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside article li:hover {
+    color: lightcoral;
+}
+
+/*table*/
+table {
+    margin: 0 auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px 5px;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color:beige;
+}
+
+table td:hover,
+#passed:hover {
+    background-color:lightcoral;
+    transition: 0.5s;
+}
+
+.ingredients h1 {
+    padding-bottom: 5px;
+}
+
+.ingredients p {
+    padding: 10px 15px;
+    margin: 0;
+    width: 40%;
+    float: left;
+}
+
+#cooking-img {
+    border: none;
+    border-radius: 20px;
+    float: left;
+    width: 50%;
+}
